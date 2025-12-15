@@ -1,0 +1,30 @@
+/* Mobiili tyylit */
+@media only screen and (max-width: 800px) {
+    main {
+        font-size: 1.2em;
+        width: 90%;
+    }
+
+    section {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    header {
+        font-size: 1.2em;
+    }
+
+    header nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .osaaminen {
+        line-height: 1.8em;
+    }
+    .osaamisen-arviointi {  
+        line-height: 1.8em;
+    }
+    .tutkinnon-muodostuminen {
+        line-height: 1.8em;
+    }
+}

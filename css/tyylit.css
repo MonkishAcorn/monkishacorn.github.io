@@ -1,0 +1,46 @@
+/* tyylit */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --tausta: #eeeeee;
+    --teksti: #333333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--tausta);
+    color: var(--teksti);
+
+}
+
+main {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+section {
+    max-width: 900px;
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+header {
+    background-color: black;
+    color: red;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.4em;
+    
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
